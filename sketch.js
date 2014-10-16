@@ -9,6 +9,12 @@ function draw()
 	fill(255);
 	ellipse(mouseX, mouseY, 100, 100);
 
+	drawDonut1();
+}
+
+function drawDonut1()
+{
+	// doughnut #1
 	fill(255);
 	ellipse(300, 300, 200, 200);
 	fill(0);
