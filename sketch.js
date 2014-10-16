@@ -9,14 +9,17 @@ function draw()
 	fill(255);
 	ellipse(mouseX, mouseY, 100, 100);
 
-	drawDonut1();
+	drawDonut(255, 21, 21, 100, 100);
+	drawDonut(255, 54, 54, 300, 100);
+	drawDonut(255, 123, 123, 400, 200);
+	drawDonut(255, 195, 195, 500, 300);
 }
 
-function drawDonut1()
+function drawDonut(r,g,b, x, y)
 {
 	// doughnut #1
-	fill(255);
-	ellipse(300, 300, 200, 200);
+	fill(r,g,b);
+	ellipse( x, y, 200, 200);
 	fill(0);
-	ellipse(300, 300, 120, 120);
+	ellipse( x, y, 120, 120);
 }
